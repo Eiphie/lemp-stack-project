@@ -21,6 +21,7 @@ sudo systemctl status nginx
 ```
 <img width="1028" height="857" alt="Screenshot 2025-08-12 at 22 05 31" src="https://github.com/user-attachments/assets/9315d5b6-f34a-48ca-8a09-c36f8d9c8479" />
 
+
 Confirm that server is running and can be accessed locally and from the internet
 ```
 curl http://localhost:80
@@ -29,6 +30,7 @@ curl http://localhost:80
 http://<Public-IP-Address>:80
 ```
 <img width="1146" height="350" alt="Screenshot 2025-08-12 at 22 06 35" src="https://github.com/user-attachments/assets/fb39dfda-20a3-4c32-899e-f2780542f9a5" />
+
 
 - Install MySQL
 ```
@@ -99,6 +101,7 @@ http://`server_domain_or_IP`/info.php
 ```
 <img width="1378" height="895" alt="Screenshot 2025-08-13 at 21 00 51" src="https://github.com/user-attachments/assets/43d62a9f-c23c-4438-a1fb-e48df7f87f37" />
 
+
 - Using PHP to retrieve data from MySQL
 Create a new database after connecting to MySQL.
 ```
@@ -112,6 +115,7 @@ mysql> CREATE USER `example_user`@`%` IDENTIFIED WITH mysql_native_password BY `
 mysql> GRANT ALL ON example_database.* TO `example_user`@`%`
 ```
 <img width="1060" height="878" alt="Screenshot 2025-08-13 at 21 03 55" src="https://github.com/user-attachments/assets/ec8af944-4b2d-496b-bfa2-d010a2cedf21" />
+
 
 Exit MySQL and login with new user details you created.
 ```
@@ -135,6 +139,7 @@ mysql> INSERT INTO example_database.todo_list (content) VALUES (My first importa
 mysql> SELECT * FROM example_database.todo_list;
 ```
 <img width="1506" height="914" alt="Screenshot 2025-08-13 at 21 36 20" src="https://github.com/user-attachments/assets/9d924186-fc65-495e-81f8-a1d2b752a2d2" />
+
 
 - Connect the PHP script to the MySQL database in order to view it in the browser.
 ```
