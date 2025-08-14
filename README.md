@@ -53,7 +53,7 @@ Assign ownership of the directory to USER
 ```
 sudo chown -R $USER:$USER /var/www/ProjectLEMP
 ```
-Create new configuration file in NginX `sites-avalable`
+Create new configuration file in NginX `sites-available`
 ```
 sudo vim /etc/nginx/sites-available/ProjectLEMP
 ```
@@ -80,6 +80,7 @@ server {
     location ~ /\.ht {
         deny all;
     }
+}
 ```
 Create an `index.html` file.
 ```
@@ -97,7 +98,7 @@ phpinfo();
 ```
 Access page in your web browser
 ```
-http://`server_domain_or_IP`/info.php
+http://<server_domain_or_IP>/info.php
 ```
 <img width="1378" height="895" alt="Screenshot 2025-08-13 at 21 00 51" src="https://github.com/user-attachments/assets/43d62a9f-c23c-4438-a1fb-e48df7f87f37" />
 
@@ -133,7 +134,7 @@ CREATE TABLE example_database.todo_list (
 );
 ```
 ```
-mysql> INSERT INTO example_database.todo_list (content) VALUES (My first important item)
+mysql> INSERT INTO example_database.todo_list (content) VALUES (My first important item);
 ```
 ```
 mysql> SELECT * FROM example_database.todo_list;
