@@ -74,3 +74,28 @@ server {
         deny all;
     }
 ```
+Create an `index.html` file
+```
+sudo sh -c 'echo "Hello LEMP from hostname $MYHOST with public IP $MYIP > /var/www/projectLEMP/index.html'
+```
+- Test PHP with NginX
+Open a new file called `info.php`
+```
+sudo vim /var/www/ProjectLEMP/info.php
+```
+Use PHP code to return information about browser
+```
+<?php
+phpinfo();
+```
+Access page in your web browser
+```
+http://`server_domain_or_IP`/info.php
+```
+- Using PHP to retrieve data from MySQL
+Create a new database after connecting to MySQL.
+```
+mysql> CREATE DATABASE `example_database`;
+```
+Create a new user and give them full database access.
+```
