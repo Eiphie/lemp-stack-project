@@ -1,4 +1,4 @@
-<img width="1506" height="914" alt="Screenshot 2025-08-13 at 21 36 20" src="https://github.com/user-attachments/assets/527f0b1c-2544-48ea-8c3f-32268470c689" /># LEMP stack
+# LEMP stack
 LEMP is an acronym for Linux, Nginx, MySQL, PHP or Python or Perl, which is a set of technology framework and tools used to develop a software product.
 
 ## Project Overview
