@@ -13,3 +13,7 @@ This project assumes that you have an active AWS account, and you have launched 
 sudo apt update
 sudo apt install nginx
 ```
+Verify Nginix installation
+```
+sudo systemctl status nginx
+```
