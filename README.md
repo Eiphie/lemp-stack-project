@@ -25,11 +25,11 @@ Confirm that server is running and can be accessed locally and from the internet
 ```
 curl http://localhost:80
 ```
-<img width="1146" height="350" alt="Screenshot 2025-08-12 at 22 06 35" src="https://github.com/user-attachments/assets/fb39dfda-20a3-4c32-899e-f2780542f9a5" />
-
 ```
 http://<Public-IP-Address>:80
 ```
+<img width="1146" height="350" alt="Screenshot 2025-08-12 at 22 06 35" src="https://github.com/user-attachments/assets/fb39dfda-20a3-4c32-899e-f2780542f9a5" />
+
 - Install MySQL
 ```
 sudo apt install mysql-server
